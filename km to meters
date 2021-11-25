@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a;
+    int b=1000;
+    float c;
+    printf("no of km");
+    scanf("%d",&a);
+    printf("1km = 1000 meters");
+    c=a*b;
+    printf("\no of meters %f",c);
+    return 0;
+}
