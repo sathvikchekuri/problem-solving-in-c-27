@@ -1,0 +1,16 @@
+int main()
+{
+    float celsius, fahrenheit;
+    
+    /* Input temprature in fahrnheit */
+    printf("enter the temprature in Fahrenheit: ");
+    scanf("%f", &fahrenheit);
+    
+    /* Print the value of celsius conversation formula */
+    celsius = (fahrenheit - 32) *5 / 9;
+    
+    /* Print the value of celsius */
+    printf("%.2f fahrenheit = %2f celsius", fahrenheit, celsius);
+
+    return 0;
+}
