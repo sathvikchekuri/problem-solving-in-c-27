@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    double a,b,c;
+    printf("value of a:");
+    scanf("%1f",&a);;
+    printf("value of b: ");
+    scanf("%1f",&b);
+    
+    c=a;
+    a=b;
+    b=c;
+    
+    printf("/n after swapping, a =%.2lf/n",a);
+    printf("/n after swapping, b =%2lf/n",b);
+
+    return 0;
+}
