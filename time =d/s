@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int d,s,t;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    printf("enter the value of s");
+    scanf("%d",&s);
+    t=d/s;
+    printf("value of t is %d",t);
+    return 0;
+}
