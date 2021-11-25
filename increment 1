@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a=2;
+    for (a=2;a<=60;a++)
+    {
+        printf("%d",a);
+    }
+    
+    return 0;
+}
