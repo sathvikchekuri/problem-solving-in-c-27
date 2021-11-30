@@ -1,0 +1,40 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c,d,e,f,g,ch;
+   
+    printf("enter your choice ");
+    scanf("%d",&ch);
+    a=20;
+    b=40;
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    g=a%b;
+    
+    switch(ch)
+    {
+        case 1:
+        printf("the addition of two numbers is %d",c);
+        break;
+        
+        case 2:
+        printf("the multiplication of two numbers is %d",d);
+        break;
+        
+        case 3:
+        printf("the multiplication of two numbers is %d",e);
+        break;
+        
+        case 4:
+        printf("the division of two numbers is %d",f);
+        break;
+        
+        case 5:
+        printf("the modules of two numbers is %d",g);
+        break;
+    }
+    return 0;
+}
